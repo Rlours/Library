@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,300&family=Poppins:wght@100;300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Courier, monospace;
+  font-weight: 300;
+  /* background-color: #ecfccb; */
+  font-size: 16.6px;
+}
+.container {
+  width: 90vw;
+  height: 95vh;
+  margin: auto;
+}
+.top {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* background-color: #fff1f2; */
+  flex-direction: column;
+}
+.bottom {
+  /* background-color: #ffe4e6; */
+}
+h1 {
+  font-family: "Montserrat", Courier, monospace;
+  font-weight: 200;
+  font-size: 3rem;
+}
+.text-introduction {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+input {
+  width: 15rem;
+  height: 2rem;
+}
+label {
+  /* padding-left: 1rem; */
+}
+select {
+  width: 6rem;
+  height: 2rem;
+}
+#submit-btn {
+  width: 5.5rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  background-color: rgb(168, 215, 215);
+}
+#submit-btn_text {
+  font-size: 1rem;
+}
+.input-newBook {
+  display: flex;
+}
+.input-newBook_element {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+/*   Styling Bottom part    */
+/* ----------------------------- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #f5f5f5;
+}

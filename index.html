@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Library🪜</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="top">
+        <h1>My Book Library</h1>
+        <div class="text-introduction">
+          <p>A project for The Odin Project -> in which I have to make a library using Object Constructors . You can also view the <a href="">Github repository</a> Made with 💖.</p>
+        </div>
+        <div class="input-newBook">
+          <div class="input-newBook_element">
+            <label for="">Title</label>
+            <input type="text" id="title" />
+          </div>
+          <div class="input-newBook_element">
+            <label for="">Author</label>
+            <input type="text" id="author" />
+          </div>
+          <div class="input-newBook_element">
+            <label for="">Pages</label>
+            <input type="number" id="pages" />
+          </div>
+          <div class="input-newBook_element">
+            <label for="">Read</label>
+            <select name="" id="status">
+              <option value="yes" class="status-value" selected>Yes</option>
+              <option value="no" class="status-value">No</option>
+            </select>
+          </div>
+        </div>
+        <button class="btn" id="submit-btn"><span id="submit-btn_text">Add</span></button>
+      </section>
+      <!-- Bottom Table Section -->
+      <section class="bottom">
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Pages</th>
+              <th>Read</th>
+              <th></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="display-table">
+              <td id="display-title">The cold</td>
+              <td id="display-author">Rowlings</td>
+              <td id="display-pages">64</td>
+              <td id="display-status">Yes</td>
+              <td id="delete-button">Delete</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
